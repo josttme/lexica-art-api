@@ -1,5 +1,5 @@
 {
-	"name": "template",
+	"name": "lexica-art-api",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
 		"postcss": "^8.4.20",
+		"sass": "^1.57.1",
 		"tailwindcss": "^3.2.4",
 		"vite": "^4.0.0"
 	},
@@ -52,6 +53,7 @@
 		"is-glob": "^4.0.3",
 		"is-number": "^7.0.0",
 		"lilconfig": "^2.0.6",
+		"lit": "^2.5.0",
 		"merge2": "^1.4.1",
 		"micromatch": "^4.0.5",
 		"minimist": "^1.2.7",
@@ -77,6 +79,7 @@
 		"resolve": "^1.22.1",
 		"reusify": "^1.0.4",
 		"rollup": "^3.9.0",
+		"route-parser": "^0.0.5",
 		"run-parallel": "^1.2.0",
 		"source-map-js": "^1.0.2",
 		"supports-preserve-symlinks-flag": "^1.0.0",
@@ -86,5 +89,5 @@
 		"xtend": "^4.0.2",
 		"yaml": "^1.10.2"
 	},
-	"description": "description"
+	"description": "using the lexica.art API"
 }

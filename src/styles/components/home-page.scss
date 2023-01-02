@@ -1,0 +1,30 @@
+section {
+	width: 100%;
+	columns: 6 180px;
+	gap: 0.5rem;
+	box-sizing: border-box;
+	padding: 0.5rem;
+}
+span {
+	display: block;
+	padding-left: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: normal;
+	margin: 2rem 0;
+}
+a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.6);
+	padding: 0.5rem;
+	box-sizing: border-box;
+	margin: 3rem 0;
+}
+@media screen and (min-width: 1000px) {
+	span {
+		padding-top: 1rem;
+		text-align: center;
+	}
+}

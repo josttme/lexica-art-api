@@ -1,0 +1,19 @@
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.skeleton {
+	background: #06459b;
+	background: linear-gradient(70deg, #06459b 25%, #0155c4 50%, #06459b 65%);
+	background-size: 500%;
+	animation: skeleton-fade 1s infinite;
+}
+@keyframes skeleton-fade {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
